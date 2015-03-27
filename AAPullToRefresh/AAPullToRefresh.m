@@ -344,7 +344,7 @@
     switch (self.position) {
         case AAPullToRefreshPositionTop:
             self.progress = ((yOffset + self.originalInsetTop) / -self.threshold);
-            centerX = centerX = self.scrollView.frame.size.width / 2 + xOffset;
+            centerX = self.scrollView.frame.size.width / 2 + xOffset;
             centerY = (yOffset + self.originalInsetTop) / 2.0f;
             break;
         case AAPullToRefreshPositionBottom:
